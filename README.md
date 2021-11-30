@@ -1,3 +1,7 @@
+Note that the system is deprecated.
+Else use https://github.com/karunakar2/kFetchVCSN to fetch data.
+
+
 NIWAData has been deprecated. All requests should should go to mintaka.niwa.co.nz instead. See the [Swagger documentation](https://mintaka.niwa.co.nz/rest/api/swagger.json)
 
 
