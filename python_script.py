@@ -25,12 +25,12 @@ def main():
 
     # Successful requests will return HTTP status code 200
     if response.status_code != 200:
-        raise Exception('Failed to request EcoConnect: %s' % response.reason)
+        raise Exception(f'Failed to request EcoConnect: {response.reason}')
 
     # Parse the JSON response
     data = response.json()
     pprint(data)
-    
+
     # You can retrieve the attributes about the dataset,
     start_date = data['startDate']
     product_class = data['productClass']
